@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, session, url_for
 from flask_session import Session
 import os
-# os - use to access environment variables like port
+
 
 app = Flask(__name__)
 app.secret_key = "simple_secret_key"
@@ -9,7 +9,7 @@ app.secret_key = "simple_secret_key"
 
 app.config["SESSION_TYPE"] = "filesystem"
 app.config["SESSION_PERMANENT"] = False
-# Expire when browser closes
+
 Session(app)
 
 users = {}
