@@ -18,7 +18,6 @@ A simple and clean **Login & Register Web Application** built using **Python Fla
 
 * **Backend:** Python, Flask
 * **Frontend:** HTML, CSS
-* **Database:** SQLite (or your DB if used)
 
 ---
 
