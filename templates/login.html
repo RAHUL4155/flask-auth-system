@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login - Flask Auth</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 <div class="container">
     <h2>Login</h2>
     <form method="POST">
-        <input type="text" name="username" placeholder="Enter Username" autocomplete="username" required>
-        <input type="password" name="password" placeholder="Enter Password" autocomplete="current-password" required>
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username" placeholder="Enter Username" autocomplete="username" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" placeholder="Enter Password" autocomplete="current-password" required>
+
         <button type="submit">Login</button>
     </form>
     <a href="{{ url_for('register') }}">Don't have an account? Register</a>
