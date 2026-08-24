@@ -38,15 +38,15 @@ flask-auth-system/
 
 ---
 
-## ▶ How to Run
+##  How to Run
 
-### 1️ Install Dependencies
+### 1 Install Dependencies
 
 ```bash
 pip install flask
 ```
 
-### 2️ Run the Application
+### 2 Run the Application
 
 ```bash
 python app.py
