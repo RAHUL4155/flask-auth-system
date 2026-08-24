@@ -1,97 +1,57 @@
-#  Flask Authentication System
+# Flask Authentication System
 
-A simple and clean **Login & Register Web Application** built using **Python Flask**.
+A simple login and register web application built using Python Flask.
 
----
+## Features
 
-##  Features
+- User registration
+- User login
+- Session management
+- Dashboard
+- Logout
 
-*  User Registration
-*  User Login
-*  Session Management
-*  Modern UI (HTML + CSS)
-*  Lightweight and easy to run
+## Tech Stack
 
----
+- Python
+- Flask
+- HTML
+- CSS
 
-##  Tech Stack
+## How to Run
 
-* **Backend:** Python, Flask
-* **Frontend:** HTML, CSS
-
----
-
-##  Project Structure
-
-```
-flask-auth-system/
-│── app.py
-│── templates/
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│   └── home.html
-│── static/
-│   └── style.css
-│── README.md
-```
-
----
-
-##  How to Run
-
-### 1 Install Dependencies
+Install the required packages:
 
 ```bash
-pip install flask
+pip install flask flask-session
 ```
 
-### 2 Run the Application
+Run the application:
 
 ```bash
 python app.py
 ```
 
-### Open in Browser
+Open:
 
-```
+```text
 http://127.0.0.1:5000
 ```
 
----
-### Using Curl
+## Project Structure
 
-```bash
-curl http://localhost:5000
+```text
+flask-auth-system/
+├── app.py
+├── templates/
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   └── home.html
+├── static/
+│   └── style.css
+└── README.md
 ```
 
-### Using Thunder Client
+## Author
 
-* Open Thunder Client in VS Code
-* Create a new request
-* Enter URL: `http://localhost:5000`
-* Click **Send**
-
----
-
-##  Future Improvements
-
-*  Password Hashing
-*  Flash Messages (Login errors)
-*  Bootstrap UI Upgrade
-*  Deployment (Render / Railway)
-
----
-
-## Reference
-* Flask Documentation: https://flask.palletsprojects.com/
-
----
-
-##Author
-
-**Rahul**
-
----
-
-If you like this project, give it a star on GitHub!
+Rahul
